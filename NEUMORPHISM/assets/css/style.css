@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');    
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #312747;
+    background-image: linear-gradient(to bottom, #e03e25 0%, #de4523 100%);
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header .logo
+{
+    position: relative;
+    color: #fae876;
+    font-size:28px;
+    text-decoration: none;
+    font-weight: 600;
+}
+header nav
+{
+    position: relative;
+}
+
+header nav ul
+{
+    position: relative;
+    display: flex;
+}
+header nav ul li
+{
+    list-style: none;
+    
+}
+header nav ul li a
+{
+    font-size: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #f44a29 0%, #eb4626 100%);
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    border-bottom: 0.5px solid #f84a28;
+    box-shadow: inset 0 0 0.9px 2px #c12c18,
+    inset 0px 2px 0.9px 2px  #f84a28;
+    transition: all .3s;
+}
+header nav ul li a:hover
+{
+    color:#fae876;
+}
+
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 100px;
+}
+section .contentBx
+{
+    position: relative;
+    max-width: 600px;
+    z-index: 1000;
+}
+section .contentBx h2
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+section .contentBx p
+{
+    font-size: 18px;
+    color: #fff;
+}
+section .contentBx a
+{
+    position: relative;
+    margin-top: 40px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #ffbc37 0%, #fc6e02 100%);
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 28px;
+    
+    box-shadow: 
+    0px 4px 11px rgba(169, 36, 19, 0.98), 
+    0px -1px 0px 0px #fd7414 inset, 
+    0px -2px 0px 0px rgba(255, 255, 255, 0.14) inset;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+
+section .contentBx a:after 
+{    
+    right: 8px;
+    position: absolute;
+    padding: 38px 132px;
+    top: -6px;
+    left: -6px;
+    content: '';
+    display: block;
+    border-radius: 40px;
+    background:#ed5234;
+    z-index: -2;
+    box-shadow: 
+    -0.819px -0.574px 1px 0px rgba(255, 255, 255, 0.04), 
+    -0.819px -0.574px 3px 0px rgba(255, 255, 255, 0), 
+    2.598px 1.5px 5px 0px rgba(48, 21, 14, 0.02), 
+    1.6px 1.2px 1px 0px #f6603b, 
+    inset 0.707px 0.707px 0px 0px #f6603b, 
+    inset -1.638px -1.147px 3px 0px #f2543b;
+}
+
+section .contentBx a span
+{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    z-index: 5;border-radius:40px;
+    font-size: 16px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    left: 12px;
+   color: white;
+    display: inline-block;
+}
+
+section .contentBx a span:hover
+{
+    box-shadow: 
+    -2px -2px 5px -1px #ffbc37,
+    2px 2px 5px -1px #fc6e02;
+}
+
+
+
+
+section .imgBx img
+{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 100px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+
+
+
+section .sci
+{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section .sci li
+{
+
+    list-style: none;
+    display: inline-block;
+    margin-right: 1.0rem;
+ 
+}
+
+section .sci li a
+{
+    display: block;
+    line-height: 40px;
+    position: relative;
+    font-size: 20px;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    transition: all 200ms;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.24);
+
+}
+section .sci li a:hover i
+{
+    transform: scale(1.3);
+    color: #fae876;
+}
+
+
+
+
+section .sci li a:after 
+{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: -4px;
+    left: -4px;
+    content: '';
+    display: block;
+    border-radius: 40px;
+    background: #f65744;
+    z-index: -2;
+    box-shadow:
+    0px 0px 5px rgba(0, 0, 0, 0.14)
+}
+
+section .sci li:nth-child(1) a
+{
+    color:#ff0e45;
+}
+
+section .sci li:nth-child(2) a
+{
+    color:#20c4f7;
+}
+
+section .sci li:nth-child(3) a
+{
+    color:blue;
+}
+
+
+
+
+
+
+.wave
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    filter: opacity(0.2);
+}
+
+
+
+
+@media (max-width: 991px)
+{
+    section
+    {
+        flex-direction: column;
+        padding-top: 150px;
+        height: auto;
+    }
+    section .contentBx
+    {
+        max-width: 100%;
+        top: 60px;
+    }
+    section .imgBx img
+    {
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 767px)
+{
+    header
+    {
+        padding: 20px 50px;
+    }
+    section
+    {
+        flex-direction: column;
+        padding: 120px 50px 100px;
+        height: auto;
+    }
+    section .contentBx h2
+    {
+        font-size: 40px;
+    }
+    section .contentBx p
+    {
+        font-size: 16px;
+    }
+
+    section .contentBx a
+    {
+        position: relative;
+        margin-top: 25px;
+        display: inline-block;
+        background-image: linear-gradient(to bottom, #ffbc37 0%, #fc6e02 100%);
+        color: #fff;
+        letter-spacing: 2px;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 40px;
+    }
+    
+    section .contentBx a:after 
+    {
+        padding: 38px 129px;
+    }
+    
+    section .sci
+    {
+        left: 70px;
+    }
+
+}
+@media (max-width: 320px)
+{
+    header 
+    {
+    padding: 20px 26px;
+   }
+   section {
+    flex-direction: column;
+    padding: 121px 34px 111px;
+    }
+    header .logo 
+    {
+        font-size: 21px;
+    }
+    header nav ul li a
+    {
+        font-size: 14px;
+    }
+}
+
+
